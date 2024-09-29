@@ -1,6 +1,5 @@
 package net.luis;
 
-import java.awt.*;
 import java.io.*;
 import java.lang.reflect.Array;
 import java.math.*;
@@ -12,7 +11,6 @@ import java.security.interfaces.RSAPublicKey;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.time.*;
-import java.util.List;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.function.Consumer;
@@ -443,10 +441,6 @@ public class Main {
 		List<String> strings = new ArrayList<>(Arrays.asList("VDE", "DABW", "ABE", "ABC", "D", "C", "E", "G", "X", "P", "H", "L", "5"));
 		Collections.sort(strings);
 		System.out.println(strings);
-	}
-	
-	public static void beep() {
-		Toolkit.getDefaultToolkit().beep();
 	}
 	
 	public static void timeAndDate() {
