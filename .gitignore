@@ -1,0 +1,8 @@
+### Java ###
+lib/
+out/
+bin/
+
+### IntelliJ ###
+*.iml
+.idea/
